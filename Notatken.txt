@@ -1,0 +1,35 @@
+Temat: Sper Globalne GET & POST w kontekście zapisu,odczytu,usuwania DB-PHP,SQL
+
+Super globalne tablice
+	$Post[]
+	$Get[]->URL https//Domena/index.php?ZMK=2 | echo $GET['ZMK']
+-Wysyłać 
+-Odbierać dane
+Sposoby
+-Formularz
+-Link
+
+Domyślinie zawsze wysyła getem <form action="index.php"(method="get" lub "post">..... po get. </form> 
+
+
+
+
+Port, Xamp jak se chłopie poradzić
+1-65535
+Uruchamiane są usługi: FTP, FTPS, IMAP, SMTP,POP3, SSH, web, socket
+IP serwera: localhost: 127.0.0.1, 192.168.1.6
+
+Na porcie 80 mamy usługęwyświetlania strony w przeglądarce jest to usługa w Xampie:Apache
+
+mysql:3306
+MariaDB:3306
+
+Zamiana portu serwera webowego: C:\xampp\apache\conf\httpd.conf
+Listen 8080
+
+Zmiana portu serwera bazodanowego mysql:
+mysql/bin/my.ini
+port=3306
+
+Zad1 utworz baze danych o nazwie bd baza zawiera tabele szybkie samochody posiada id, nazwa,pojemnosc, cena
+za pomoca superglobalnej get. pobierz liste szybkich samochodów które mają 1000cmsześciennych po kliknieciu na hiperłącze zmienia nazzwe na na transformersa to samo wykonaj w przypadku posta dowolny css dowolna interpretacja graficzna

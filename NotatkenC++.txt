@@ -1,0 +1,1 @@
+Klasa1 -> Klasa2 -> Klasa3 -> Klasa4
